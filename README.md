@@ -39,7 +39,7 @@ portfoliohub-implantacao/
 - Veja detalhes em [`SECURITY.md`](SECURITY.md).
 
 ## 👥 Colaboradores
-- Nome do Aluno – Responsável pela implantação e documentação
+- Arthur Borges Rodrigues da Silva – Responsável pela implantação e documentação
 
 ## 📄 Licença
 Uso educacional – Bootcamp I, 2025 – Prof. Marcelo Carboni Gomes.
