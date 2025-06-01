@@ -1,1 +1,21 @@
-Configurações iniciais serão colocadas aqui
+# mock_drive_upload.py
+
+def upload_to_drive_mock():
+    print("[MOCK] Iniciando upload de arquivo para o Google Drive...")
+    print("[MOCK] Arquivo 'relatorio_final.pdf' enviado para a pasta 'PortfolioHUB'.")
+    print("[MOCK] Permissões de compartilhamento aplicadas (leitura para avaliador).")
+
+if __name__ == "__main__":
+    upload_to_drive_mock()
+
+
+# mock_calendar_event.py
+
+def create_calendar_event_mock():
+    print("[MOCK] Criando evento no Google Calendar...")
+    print("[MOCK] Evento 'Entrega Final PortfolioHUB' agendado para 01/06/2025 às 18:00.")
+    print("[MOCK] Notificação enviada aos participantes.")
+
+if __name__ == "__main__":
+    create_calendar_event_mock()
+
