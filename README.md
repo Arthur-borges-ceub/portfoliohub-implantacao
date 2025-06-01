@@ -56,7 +56,7 @@ python mock_calendar_event.py
 
 ## ⚖️ Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. 
 
 ---
 
