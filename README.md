@@ -1,45 +1,74 @@
-# PortfolioHUB – Implantação Integrada com Google Workspace + GitHub
+# PortfolioHUB - Implantação com Google Workspace + GitHub + IA Gemini
 
-## 🎯 Objetivo
-Este repositório contém a implantação do projeto **PortfolioHUB**, uma plataforma para exibir e gerenciar portfólios digitais. Ele integra funcionalidades do **Google Workspace** com **GitHub**, com ênfase em colaboração e segurança.
+## 📄 Sobre o Projeto
 
-## 📁 Estrutura do Repositório
-```
+O **PortfolioHUB** é uma plataforma centralizada para exibir e gerenciar projetos pessoais e acadêmicos. Esta implantação foi realizada como desafio final do Bootcamp I (2025) do CEUB, integrando ferramentas do **Google Workspace**, **GitHub** e a **IA Gemini** para orientar o processo.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Google Workspace (Drive, Calendar, Docs, Admin)
+- Google Gemini (IA de apoio)
+- Git e GitHub (controle de versão)
+- Python (scripts de simulação)
+- Google API Client (mock)
+
+---
+
+## 📚 Estrutura do Projeto
+
+```bash
 portfoliohub-implantacao/
-├── docs/         → Documentação do projeto
-├── src/          → Código-fonte HTML/CSS/JS
-├── configs/      → Configurações e setups
-├── README.md     → Este arquivo
-├── SECURITY.md   → Políticas de segurança
-└── .gitignore    → Exclusões de versionamento
+├── docs/                      # Documentos de planejamento e execução
+├── scripts/                   # Scripts mockados de integração
+│   ├── mock_drive_upload.py
+│   └── mock_calendar_event.py
+├── .gitignore
+├── README.md
+└── LICENSE
 ```
 
-## 🚀 Tecnologias Utilizadas
-- HTML5 / CSS3 / JavaScript
-- Google Drive (armazenamento de documentos)
-- Google Docs & Calendar (colaboração e agenda)
-- GitHub (versionamento, CI/CD básico)
-- Google GEMINI (assistência à implantação)
+---
 
-## 🛠️ Como usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seuusuario/portfoliohub-implantacao.git
-   ```
-2. Acesse a pasta:
-   ```bash
-   cd portfoliohub-implantacao/src
-   ```
-3. Abra o arquivo `index.html` no navegador para visualizar o projeto.
+## ✅ Etapas da Implantação
 
-## 🔒 Segurança e Acesso
-- Todos os arquivos são privados no Google Drive, com permissões individuais.
-- GitHub com 2FA habilitado.
-- Branch principal protegida com revisões obrigatórias.
-- Veja detalhes em [`SECURITY.md`](SECURITY.md).
+1. **Planejamento:** Documento no Google Docs detalhando objetivos, ferramentas, cronograma e responsáveis.
+2. **Integração Workspace:** Ambiente Google Workspace criado com simulação de integração com Drive e Calendar.
+3. **Gestão e Segurança:** Definição de regras de acesso, compartilhamento e boas práticas com apoio da IA Gemini.
+4. **Controle de Versão:** Repositório GitHub com controle de histórico, commits semânticos e organização de branches.
+5. **Testes e Validação:** Execução de testes finais e checklist com IA Gemini.
+6. **Apresentação Final:** Elaboração de roteiro e gravação de vídeo (link no documento final).
 
-## 👥 Colaboradores
-- Arthur Borges Rodrigues da Silva – Responsável pela implantação e documentação
+---
 
-## 📄 Licença
-Uso educacional – Bootcamp I, 2025 – Prof. Marcelo Carboni Gomes.
+## 📁 Como Executar os Scripts
+
+> Simulação com Python (Google APIs precisam ser ativadas e credenciais criadas para uso real).
+
+```bash
+cd scripts/
+python mock_drive_upload.py
+python mock_calendar_event.py
+```
+
+---
+
+## ⚖️ Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+## 👨‍💼 Contribuidores
+
+- Arthur Borges - Implantador
+- Prof. Marcelo Carboni Gomes - Orientador
+
+---
+
+## 🔗 Links Relevantes
+
+- [Documentação da Implantação (Google Docs)](https://docs.google.com/document/d/1k8C33Qqpao4pum59yW5iKZGjuRaRWgKhxlUKZeYxHro/edit)
+- [Repositório GitHub](https://github.com/Arthur-borges-ceub/portfoliohub-implantacao)
+- [Desafio Final - PDF](https://docs.google.com/document/d/1qOvUObkDruSbLqyfB1IxbsuO9nHbM8VrshalQta6Idg/edit?usp=sharing) <!-- substituir pelo link do PDF final -->
